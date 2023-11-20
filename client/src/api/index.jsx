@@ -1,7 +1,8 @@
 import axios from 'axios';
-const DEV_URL = 'http://localhost:5000/'; 
+const DEV_URL = 'http://localhost:5000/';
+const PROD_URL = "https://petreunitehub.onrender.com" ;
 const API = axios.create({
-  // baseURL : PROD_URL
+   //baseURL : PROD_URL
   baseURL : DEV_URL
 });
 
